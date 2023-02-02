@@ -11,7 +11,7 @@ library(rbioapi)
 ui <- fluidPage(
   
   # Application title
-  titlePanel("Data Visualization using DisGeNet & Reactome"),
+  titlePanel("Data Visualization using Reactome services"),
   sidebarLayout(
     sidebarPanel(
       # Define inputs as two .csv files
