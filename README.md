@@ -2,8 +2,6 @@
 
 This repository contains a Shiny app hosted at https://jfneum.shinyapps.io/data_viz_shiny_app/
 
-The app requires the following inputs:
-1. A csv file containing at least the columns "Symbol" (HGNC genes), "adj.p.value" and "logFC"
-2. A DisGeNet account (email & password) which can be created here: https://www.disgenet.org/signup/
+The app requires a csv file containing at least the columns "Symbol" (HGNC genes), "adj.p.value" and "logFC"
 
-The app should be possible to run using Docker but one package that needs to be installed from bitbucket and uses an outdated dependency currently crashes the container.
+The app can be deployed through Docker, however, actual painless GUI support is a work in progress.
